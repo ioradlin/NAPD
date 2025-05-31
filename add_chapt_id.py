@@ -1,6 +1,6 @@
 import json
 
-with open("NAPD_frag_trans2_finished.json", "r", encoding="utf-8") as f:
+with open("NAPD_frag_trans4.1_finished.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 id = 0
@@ -19,5 +19,5 @@ for i, item in enumerate(data):
 
     item["text"] = item["text"].replace("\n", " ").strip()
         
-with open("NAPD_frag_trans2_postprocessed.json", "w", encoding="utf-8") as f:
+with open("NAPD_frag_trans4.1_postprocessed.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)

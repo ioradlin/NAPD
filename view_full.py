@@ -4,7 +4,7 @@ import re
 
 image_base_path = "images"
 
-with open("NAPD_frag_trans2_finished.json", "r", encoding="utf-8") as f:
+with open("NAPD_frag_trans4.1_postprocessed.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 html_output = """

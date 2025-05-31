@@ -7,7 +7,7 @@ image_base_path = "images"
 chapter_folder = "chapters_phone"  # 변경된 폴더명
 os.makedirs(chapter_folder, exist_ok=True)
 
-with open("NAPD_frag_trans2_finished.json", "r", encoding="utf-8") as f:
+with open("NAPD_frag_trans4.1_postprocessed.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # 챕터 분류

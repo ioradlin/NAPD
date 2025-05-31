@@ -197,7 +197,7 @@ import json
 #----------
 
 # 저장된 챕터 JSON 불러오기
-with open("NAPD_frag_fixed.json", "r", encoding="utf-8") as f:
+with open("NAPD_frag_trans4.1_postprocessed.json", "r", encoding="utf-8") as f:
     napd = json.load(f)
 
 
