@@ -19,6 +19,9 @@ for item in data:
             print(trans[idx:idx+10])
             item["trans"] = trans
 
+        if item["type"]!="image":
+            item["trans"] = ' '+ item["trans"]
+
 # 결과를 다시 같은 파일에 저장
 with open(file_path, "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
